@@ -18,7 +18,7 @@ lazarus中文论坛官网是： [http://www.fpccn.com](http://www.fpccn.com "laz
 + 使用sqlite数据库
 + 支持简体中文、繁体中文、英文
 
-#windows编译发现版本
+#windows编译发行版本，可直接下载使用
 
 在压缩文件 **0_addressbook_release_exe.zip**  之中。
 
