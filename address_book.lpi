@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True" LFM="False"/>
+      <OutDir Value="locale"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="DBFLaz"/>
+        <MinVersion Minor="1" Release="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="SQLDBLaz"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="24">
+      <Unit0>
+        <Filename Value="address_book.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="address_book"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="39" Y="19"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="form_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="form_main"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="65" Y="676"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4234"/>
+        <CursorPos X="1" Y="4247"/>
+        <UsageCount Value="36"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\dbctrls.pp"/>
+        <UnitName Value="DbCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1432"/>
+        <CursorPos X="1" Y="1444"/>
+        <UsageCount Value="36"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\objpash.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="180"/>
+        <CursorPos X="23" Y="185"/>
+        <UsageCount Value="36"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="358"/>
+        <CursorPos X="15" Y="369"/>
+        <UsageCount Value="36"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="45" Y="280"/>
+        <UsageCount Value="35"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="867"/>
+        <CursorPos X="1" Y="878"/>
+        <UsageCount Value="34"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="829"/>
+        <CursorPos X="14" Y="840"/>
+        <UsageCount Value="34"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="global.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Global"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="99"/>
+        <CursorPos X="13" Y="113"/>
+        <UsageCount Value="81"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\ViewPolicy\global.pas"/>
+        <UnitName Value="Global"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="53"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="formselectvalue.pas"/>
+        <ComponentName Value="frmSelectValue"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormSelectValue"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="49" Y="5"/>
+        <UsageCount Value="18"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="formabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormAbout"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="43" Y="52"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="formdisplay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDisplay"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formdisplay"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="35"/>
+        <CursorPos X="28" Y="51"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\lconvencoding.pas"/>
+        <UnitName Value="LConvEncoding"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="88"/>
+        <CursorPos X="78" Y="92"/>
+        <UsageCount Value="22"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="form_view_error.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmViewError"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="form_view_error"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="21" Y="1"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\lcl\lclproc.pas"/>
+        <UnitName Value="LCLProc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="28" Y="4449"/>
+        <UsageCount Value="12"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\dateutils.pp"/>
+        <UnitName Value="dateutils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="1"/>
+        <UsageCount Value="11"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\dateutil.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="19" Y="19"/>
+        <UsageCount Value="13"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="290"/>
+        <CursorPos X="36" Y="301"/>
+        <UsageCount Value="11"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="158"/>
+        <CursorPos X="20" Y="163"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1301"/>
+        <CursorPos X="3" Y="1174"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="17"/>
+        <UsageCount Value="11"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\types.pp"/>
+        <UnitName Value="types"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="406"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="11"/>
+      </Unit23>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="402" Column="34" TopLine="402"/>
+      </Position1>
+      <Position2>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1544" Column="52" TopLine="1542"/>
+      </Position2>
+      <Position3>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="6" Column="23" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="401" Column="39" TopLine="389"/>
+      </Position4>
+      <Position5>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1473" Column="14" TopLine="1446"/>
+      </Position5>
+      <Position6>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="203" Column="26" TopLine="184"/>
+      </Position6>
+      <Position7>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="57" Column="35" TopLine="40"/>
+      </Position7>
+      <Position8>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="203" Column="26" TopLine="168"/>
+      </Position8>
+      <Position9>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="565" Column="53" TopLine="537"/>
+      </Position9>
+      <Position10>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="566" Column="53" TopLine="548"/>
+      </Position10>
+      <Position11>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="567" Column="53" TopLine="549"/>
+      </Position11>
+      <Position12>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="569" Column="53" TopLine="551"/>
+      </Position12>
+      <Position13>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1566" Column="3" TopLine="1563"/>
+      </Position13>
+      <Position14>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1570" Column="25" TopLine="1569"/>
+      </Position14>
+      <Position15>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1565" Column="40" TopLine="1563"/>
+      </Position15>
+      <Position16>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1438" Column="5" TopLine="1436"/>
+      </Position16>
+      <Position17>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="570" Column="4" TopLine="560"/>
+      </Position17>
+      <Position18>
+        <Filename Value="global.pas"/>
+        <Caret Line="76" Column="8" TopLine="65"/>
+      </Position18>
+      <Position19>
+        <Filename Value="global.pas"/>
+        <Caret Line="225" Column="16" TopLine="209"/>
+      </Position19>
+      <Position20>
+        <Filename Value="global.pas"/>
+        <Caret Line="240" Column="16" TopLine="224"/>
+      </Position20>
+      <Position21>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="677" Column="56" TopLine="670"/>
+      </Position21>
+      <Position22>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="679" Column="56" TopLine="672"/>
+      </Position22>
+      <Position23>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="1825" Column="1" TopLine="1807"/>
+      </Position23>
+      <Position24>
+        <Filename Value="form_main.pas"/>
+        <Caret Line="681" Column="3" TopLine="672"/>
+      </Position24>
+      <Position25>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="7" Column="64" TopLine="5"/>
+      </Position25>
+      <Position26>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="56" Column="43" TopLine="50"/>
+      </Position26>
+      <Position27>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="55" Column="43" TopLine="49"/>
+      </Position27>
+      <Position28>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="54" Column="43" TopLine="48"/>
+      </Position28>
+      <Position29>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="53" Column="43" TopLine="47"/>
+      </Position29>
+      <Position30>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="52" Column="43" TopLine="46"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="address_book"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

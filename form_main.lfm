@@ -1,0 +1,1651 @@
+object frmMain: TfrmMain
+  Left = 129
+  Height = 509
+  Top = 115
+  Width = 885
+  Caption = 'frmMain'
+  ClientHeight = 509
+  ClientWidth = 885
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -16
+  Font.Name = 'Arial Narrow'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '0.9.30'
+  object PanelTop: TPanel
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 885
+    Align = alTop
+    ClientHeight = 40
+    ClientWidth = 885
+    TabOrder = 0
+    object Bevel1: TBevel
+      Left = 1
+      Height = 38
+      Top = 1
+      Width = 7
+      Align = alLeft
+      Visible = False
+    end
+    object lblCode: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 64
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Code'
+      ParentColor = False
+    end
+    object EditCode: TEdit
+      Left = 80
+      Height = 28
+      Top = 7
+      Width = 72
+      CharCase = ecUppercase
+      OnChange = EditCodeChange
+      TabOrder = 0
+    end
+    object lblName: TLabel
+      Left = 152
+      Height = 21
+      Top = 7
+      Width = 88
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Name'
+      ParentColor = False
+    end
+    object EditName: TEdit
+      Left = 248
+      Height = 28
+      Top = 7
+      Width = 136
+      OnChange = EditNameChange
+      TabOrder = 1
+    end
+    object lblDept: TLabel
+      Left = 670
+      Height = 21
+      Top = 8
+      Width = 82
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Dept'
+      ParentColor = False
+    end
+    object ComboBoxDept: TComboBox
+      Left = 760
+      Height = 28
+      Top = 7
+      Width = 117
+      ItemHeight = 20
+      OnChange = ComboBoxDeptChange
+      Style = csDropDownList
+      TabOrder = 2
+    end
+    object lblCompany: TLabel
+      Left = 384
+      Height = 21
+      Top = 7
+      Width = 99
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Company'
+      ParentColor = False
+    end
+    object ComboBoxCompany: TComboBox
+      Left = 499
+      Height = 28
+      Top = 7
+      Width = 168
+      ItemHeight = 20
+      OnChange = ComboBoxCompanyChange
+      Style = csDropDownList
+      TabOrder = 3
+    end
+  end
+  object PanelSmallKeys: TPanel
+    Left = 0
+    Height = 32
+    Top = 40
+    Width = 885
+    Align = alTop
+    ClientHeight = 32
+    ClientWidth = 885
+    TabOrder = 1
+    object Bevel2: TBevel
+      Left = 1
+      Height = 30
+      Top = 1
+      Width = 71
+      Align = alLeft
+    end
+    object ButtonA: TButton
+      Left = 187
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'A'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonAClick
+      ParentFont = False
+      TabOrder = 0
+    end
+    object ButtonA1: TButton
+      Left = 208
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'B'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA1Click
+      ParentFont = False
+      TabOrder = 1
+    end
+    object ButtonA2: TButton
+      Left = 712
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'Z'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA2Click
+      ParentFont = False
+      TabOrder = 2
+    end
+    object ButtonA3: TButton
+      Left = 691
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'Y'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA3Click
+      ParentFont = False
+      TabOrder = 3
+    end
+    object ButtonA4: TButton
+      Left = 670
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'X'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA4Click
+      ParentFont = False
+      TabOrder = 4
+    end
+    object ButtonA5: TButton
+      Left = 649
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'W'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA5Click
+      ParentFont = False
+      TabOrder = 5
+    end
+    object ButtonA6: TButton
+      Left = 628
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'V'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA6Click
+      ParentFont = False
+      TabOrder = 6
+    end
+    object ButtonA7: TButton
+      Left = 607
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'U'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA7Click
+      ParentFont = False
+      TabOrder = 7
+    end
+    object ButtonA8: TButton
+      Left = 586
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'T'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA8Click
+      ParentFont = False
+      TabOrder = 8
+    end
+    object ButtonA9: TButton
+      Left = 565
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'S'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA9Click
+      ParentFont = False
+      TabOrder = 9
+    end
+    object ButtonA10: TButton
+      Left = 544
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'R'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA10Click
+      ParentFont = False
+      TabOrder = 10
+    end
+    object ButtonA11: TButton
+      Left = 523
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'Q'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA11Click
+      ParentFont = False
+      TabOrder = 11
+    end
+    object ButtonA12: TButton
+      Left = 502
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'P'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA12Click
+      ParentFont = False
+      TabOrder = 12
+    end
+    object ButtonA13: TButton
+      Left = 481
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'O'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA13Click
+      ParentFont = False
+      TabOrder = 13
+    end
+    object ButtonA14: TButton
+      Left = 460
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'N'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA14Click
+      ParentFont = False
+      TabOrder = 14
+    end
+    object ButtonA15: TButton
+      Left = 439
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'M'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA15Click
+      ParentFont = False
+      TabOrder = 15
+    end
+    object ButtonA16: TButton
+      Left = 418
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'L'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA16Click
+      ParentFont = False
+      TabOrder = 16
+    end
+    object ButtonA17: TButton
+      Left = 397
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'K'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA17Click
+      ParentFont = False
+      TabOrder = 17
+    end
+    object ButtonA18: TButton
+      Left = 376
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'J'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA18Click
+      ParentFont = False
+      TabOrder = 18
+    end
+    object ButtonA19: TButton
+      Left = 355
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'I'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA19Click
+      ParentFont = False
+      TabOrder = 19
+    end
+    object ButtonA20: TButton
+      Left = 334
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'H'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA20Click
+      ParentFont = False
+      TabOrder = 20
+    end
+    object ButtonA21: TButton
+      Left = 313
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'G'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA21Click
+      ParentFont = False
+      TabOrder = 21
+    end
+    object ButtonA22: TButton
+      Left = 292
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'F'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA22Click
+      ParentFont = False
+      TabOrder = 22
+    end
+    object ButtonA23: TButton
+      Left = 271
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'E'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA23Click
+      ParentFont = False
+      TabOrder = 23
+    end
+    object ButtonA24: TButton
+      Left = 250
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'D'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA24Click
+      ParentFont = False
+      TabOrder = 24
+    end
+    object ButtonA25: TButton
+      Left = 229
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alLeft
+      Caption = 'C'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA25Click
+      ParentFont = False
+      TabOrder = 25
+    end
+    object ButtonAll: TButton
+      Left = 774
+      Height = 30
+      Top = 1
+      Width = 89
+      Align = alRight
+      Caption = 'All Records'
+      OnClick = ButtonAllClick
+      TabOrder = 26
+    end
+    object ButtonBack: TButton
+      Left = 72
+      Height = 30
+      Top = 1
+      Width = 96
+      Align = alLeft
+      Caption = '<= Back'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -14
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonA2Click
+      ParentFont = False
+      TabOrder = 27
+    end
+    object Bevel3: TBevel
+      Left = 168
+      Height = 30
+      Top = 1
+      Width = 19
+      Align = alLeft
+    end
+    object Bevel4: TBevel
+      Left = 863
+      Height = 30
+      Top = 1
+      Width = 21
+      Align = alRight
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 22
+    Top = 487
+    Width = 885
+    Panels = <    
+      item
+        Width = 150
+      end    
+      item
+        Width = 400
+      end    
+      item
+        Width = 100
+      end>
+    SimplePanel = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 415
+    Top = 72
+    Width = 885
+    Align = alClient
+    Caption = 'Panel1'
+    ClientHeight = 415
+    ClientWidth = 885
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+    object Panel2: TPanel
+      Left = 1
+      Height = 413
+      Top = 1
+      Width = 287
+      Align = alLeft
+      ClientHeight = 413
+      ClientWidth = 287
+      TabOrder = 0
+      object ListView1: TListView
+        Left = 1
+        Height = 377
+        Top = 1
+        Width = 285
+        Align = alClient
+        Columns = <>
+        HideSelection = False
+        LargeImages = ImageList1
+        PopupMenu = PopupMenu1
+        ReadOnly = True
+        SmallImages = ImageList1
+        TabOrder = 0
+        ViewStyle = vsIcon
+        OnClick = ListView1Click
+      end
+      object Panel5: TPanel
+        Left = 1
+        Height = 34
+        Top = 378
+        Width = 285
+        Align = alBottom
+        ClientHeight = 34
+        ClientWidth = 285
+        TabOrder = 1
+        object LableLanguage: TLabel
+          Left = 1
+          Height = 32
+          Top = 1
+          Width = 71
+          Align = alLeft
+          Caption = 'Language'
+          ParentColor = False
+        end
+        object ComboBoxLanguage: TComboBox
+          Left = 86
+          Height = 26
+          Top = 1
+          Width = 198
+          Align = alClient
+          ItemHeight = 18
+          Items.Strings = (
+            '简体中文'
+            'English'
+            '繁體中文'
+          )
+          OnChange = ComboBoxLanguageChange
+          Style = csDropDownList
+          TabOrder = 0
+        end
+        object Bevel6: TBevel
+          Left = 72
+          Height = 32
+          Top = 1
+          Width = 14
+          Align = alLeft
+          Style = bsRaised
+        end
+      end
+      object Memo1: TMemo
+        Left = 151
+        Height = 48
+        Top = 303
+        Width = 91
+        Lines.Strings = (
+          'Memo1'
+        )
+        TabOrder = 2
+        Visible = False
+      end
+    end
+    object Splitter1: TSplitter
+      Left = 288
+      Height = 413
+      Top = 1
+      Width = 8
+      OnMoved = Splitter1Moved
+    end
+    object Panel3: TPanel
+      Left = 296
+      Height = 413
+      Top = 1
+      Width = 588
+      Align = alClient
+      ClientHeight = 413
+      ClientWidth = 588
+      TabOrder = 2
+      object ScrollBox1: TScrollBox
+        Left = 1
+        Height = 376
+        Top = 1
+        Width = 586
+        Align = alClient
+        ClientHeight = 372
+        ClientWidth = 582
+        TabOrder = 0
+        OnClick = ScrollBox1Click
+        object Label_Code: TLabel
+          Left = 10
+          Height = 21
+          Top = 12
+          Width = 115
+          Alignment = taRightJustify
+          AutoSize = False
+          Caption = 'Label_Code'
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Edit_Code: TEdit
+          Left = 136
+          Height = 26
+          Top = 7
+          Width = 169
+          CharCase = ecUppercase
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 0
+        end
+        object Label_Name: TLabel
+          Left = 10
+          Height = 21
+          Top = 44
+          Width = 115
+          Alignment = taRightJustify
+          AutoSize = False
+          Caption = 'Label_Name'
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Edit_NAME: TEdit
+          Left = 136
+          Height = 26
+          Top = 39
+          Width = 405
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = Edit_NAMEChange
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 1
+        end
+        object Label_Company: TLabel
+          Left = 10
+          Height = 21
+          Top = 76
+          Width = 115
+          Alignment = taRightJustify
+          AutoSize = False
+          Caption = 'Label_Company'
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Edit_Company: TEdit
+          Left = 136
+          Height = 26
+          Top = 71
+          Width = 405
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = Edit_CompanyChange
+          OnClick = Edit_CompanyClick
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 2
+        end
+        object Label_Dept: TLabel
+          Left = 10
+          Height = 21
+          Top = 108
+          Width = 115
+          Alignment = taRightJustify
+          AutoSize = False
+          Caption = 'Dept'
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object EDIT_DEPT: TEdit
+          Left = 136
+          Height = 26
+          Top = 103
+          Width = 405
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = EDIT_DEPTChange
+          OnClick = EDIT_DEPTClick
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 3
+        end
+        object Label_Gender: TLabel
+          Left = 10
+          Height = 21
+          Top = 148
+          Width = 115
+          Alignment = taRightJustify
+          AutoSize = False
+          Caption = 'Gender'
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object RadioButtonMan: TRadioButton
+          Left = 213
+          Height = 22
+          Top = 148
+          Width = 52
+          Caption = 'man'
+          Enabled = False
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = RadioButtonManChange
+          ParentFont = False
+          TabOrder = 4
+        end
+        object RadioButtonWoman: TRadioButton
+          Left = 349
+          Height = 22
+          Top = 148
+          Width = 72
+          Caption = 'woman'
+          Enabled = False
+          Font.CharSet = ANSI_CHARSET
+          Font.Height = -16
+          Font.Name = 'Arial'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = RadioButtonWomanChange
+          ParentFont = False
+          TabOrder = 5
+        end
+        object ImageGender: TImage
+          Left = 136
+          Height = 32
+          Top = 137
+          Width = 32
+        end
+        object GroupSelect: TGroupBox
+          Left = 133
+          Height = 197
+          Top = 124
+          Width = 424
+          Caption = 'Select'
+          ClientHeight = 179
+          ClientWidth = 420
+          TabOrder = 6
+          Visible = False
+          object ButtonSelectConfirm: TButton
+            Left = 262
+            Height = 28
+            Top = 141
+            Width = 74
+            Caption = 'Confirm'
+            OnClick = ButtonSelectConfirmClick
+            TabOrder = 0
+          end
+          object ButtonSelectCancel: TButton
+            Left = 350
+            Height = 28
+            Top = 141
+            Width = 67
+            Caption = 'Cancel'
+            OnClick = ButtonSelectCancelClick
+            TabOrder = 1
+          end
+          object ListBoxSelect: TListBox
+            Left = 11
+            Height = 128
+            Top = 8
+            Width = 400
+            Color = cl3DLight
+            ItemHeight = 0
+            OnClick = ListBoxSelectClick
+            TabOrder = 2
+          end
+          object EditValue: TEdit
+            Left = 11
+            Height = 26
+            Top = 141
+            Width = 170
+            Color = clSkyBlue
+            TabOrder = 3
+          end
+          object ButtonSelectAdd: TButton
+            Left = 182
+            Height = 28
+            Top = 141
+            Width = 74
+            Caption = 'Add'
+            OnClick = ButtonSelectAddClick
+            TabOrder = 4
+          end
+        end
+      end
+      object Panel4: TPanel
+        Left = 1
+        Height = 35
+        Top = 377
+        Width = 586
+        Align = alBottom
+        ClientHeight = 35
+        ClientWidth = 586
+        TabOrder = 1
+        object ButtonNew: TButton
+          Left = -1
+          Height = 31
+          Top = 1
+          Width = 88
+          Caption = 'New'
+          OnClick = ButtonNewClick
+          TabOrder = 0
+        end
+        object ButtonEdit: TButton
+          Left = 95
+          Height = 31
+          Top = 1
+          Width = 88
+          Caption = 'Edit'
+          Enabled = False
+          OnClick = ButtonEditClick
+          TabOrder = 1
+        end
+        object ButtonSave: TButton
+          Left = 191
+          Height = 31
+          Top = 1
+          Width = 88
+          Caption = 'Save'
+          Enabled = False
+          OnClick = ButtonSaveClick
+          TabOrder = 2
+        end
+        object ButtonClose: TButton
+          Left = 479
+          Height = 33
+          Top = 1
+          Width = 88
+          Align = alRight
+          Caption = 'Exit'
+          OnClick = ButtonCloseClick
+          TabOrder = 3
+        end
+        object Bevel5: TBevel
+          Left = 567
+          Height = 33
+          Top = 1
+          Width = 18
+          Align = alRight
+        end
+        object ButtonCancel: TButton
+          Left = 287
+          Height = 31
+          Top = 1
+          Width = 88
+          Caption = 'Cancel'
+          Enabled = False
+          OnClick = ButtonCancelClick
+          TabOrder = 4
+        end
+        object ButtonView: TButton
+          Left = 391
+          Height = 31
+          Top = 1
+          Width = 72
+          Caption = 'View'
+          Enabled = False
+          OnClick = ButtonViewClick
+          TabOrder = 5
+        end
+      end
+    end
+  end
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    CharSet = 'UTF8'
+    Options = []
+    left = 80
+    top = 136
+  end
+  object SQLScript1: TSQLScript
+    DataBase = SQLite3Connection1
+    Directives.Strings = (
+      'SET TERM'
+      'COMMIT'
+      '#IFDEF'
+      '#IFNDEF'
+      '#ELSE'
+      '#ENDIF'
+      '#DEFINE'
+      '#UNDEF'
+      '#UNDEFINE'
+    )
+    Terminator = ';'
+    CommentsinSQL = True
+    UseSetTerm = True
+    UseCommit = True
+    UseDefines = True
+    left = 72
+    top = 208
+  end
+  object SQLQueryAddList: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    ReadOnly = False
+    Params = <>
+    left = 57
+    top = 285
+  end
+  object DatasourceAddList: TDatasource
+    DataSet = SQLQueryAddList
+    left = 128
+    top = 248
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Action = caNone
+    Database = SQLite3Connection1
+    left = 142
+    top = 200
+  end
+  object ImageList1: TImageList
+    Height = 32
+    Width = 32
+    left = 48
+    top = 88
+    Bitmap = {
+      4C69020000002000000020000000FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF000010A5FF1021D6FF3139F7FF4A5AFFFF394AFFFF394A
+      FFFF394AFFFF1010E7FF2121EFFF1010E7FF1010E7FF1010E7FF1010E7FF1010
+      E7FF1010E7FF0810CEFF0010A5FF0010A5FF0010A5FF0010A5FF10106BFF1010
+      6BFFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF000010A5FF2129DEFF394AFFFF5252FFFF4A5AFFFF5252FFFF2121
+      EFFF2121EFFF1010E7FF1010E7FF1010E7FF1010E7FF0010A5FF1010E7FF1010
+      E7FF1010E7FF1010E7FF1010E7FF0010A5FF0010A5FF0010A5FF0010A5FF1010
+      6BFF10106BFFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF000010A5FF2129DEFF5252FFFF4A5AFFFF5252FFFF5252FFFF2931F7FF2121
+      EFFF1010E7FF1010E7FF1010E7FF0010A5FF00FFFFFFFFFFFFFFFF9C94FF1010
+      E7FF1010E7FF1010E7FF1010E7FF1010E7FF1010E7FF0010A5FF0010A5FF0010
+      A5FF10106BFF10106BFFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF000010
+      A5FF2129DEFF5252FFFF4A5AFFFF4A5AFFFF5252FFFF2121EFFF1010E7FF1010
+      E7FF1010E7FF1010E7FF0010A5FF00FFFFFF00FFFFFF0010A5FF1010E7FF1010
+      E7FF1010E7FF1010E7FF1010E7FF2121EFFF0010A5FF1010E7FF0810CEFF0010
+      A5FF0010A5FF10106BFF10106BFFFF00FF00FF00FF00FF00FF00FF00FF001829
+      C6FF5252FFFF4A5AFFFF5252FFFF394AFFFF394AFFFF2121EFFF1010E7FF1010
+      E7FF1010E7FF0010A5FF00FFFFFF00FFFFFF00FFFFFF0010A5FF1010E7FF1010
+      E7FF1010E7FF2121EFFF2121EFFF0010A5FF00FFFFFF0010A5FF1010E7FF0010
+      A5FF0010A5FF0010A5FF10106BFFFF00FF00FF00FF00FF00FF000010A5FF2129
+      DEFF4A5AFFFF4A5AFFFF394AFFFF1829C6FF1829C6FF2121EFFF1010E7FF1010
+      E7FF1010E7FF1010E7FF0010A5FF0010A5FF0010A5FF1010E7FF1010E7FF1010
+      E7FF2121EFFF2121EFFF1021BDFF00FFFFFF00FFFFFF0010A5FF1010E7FF0810
+      CEFF0010A5FF0010A5FF10106BFFFF00FF00FF00FF00FF00FF002931DEFF4A5A
+      FFFF4A5AFFFF394AFFFF1829C6FF00FFFFFF1021BDFF1010E7FF1010E7FF1010
+      E7FF1010E7FF1010E7FF1010E7FF1010E7FF1010E7FF1010E7FF1010E7FF2121
+      EFFF2121EFFF0010A5FF00FFFFFF00FFFFFF00FFFFFF0010A5FF1010E7FF0810
+      CEFF0010A5FF0010A5FF10106BFFFF00FF00FF00FF000010A5FF2129DEFF4A5A
+      FFFF4A5AFFFF394AFFFF00FFFFFF00FFFFFF0010A5FF1010E7FF1010E7FF1010
+      E7FF1010E7FF1010E7FF1010E7FF1010E7FF2121EFFF2121EFFF2121EFFF1010
+      E7FF2121EFFF2121EFFF0010A5FF00FFFFFF00FFFFFF0010A5FF1010E7FF1010
+      E7FF0010A5FF0010A5FF10106BFFFF00FF00FF00FF001829C6FF4A5AFFFF5252
+      FFFF5252FFFF2121EFFF2121EFFF00FFFFFF0010A5FF1010E7FF1010E7FF1010
+      E7FF1010E7FF1010E7FF2121EFFF2121EFFF2121EFFF1010E7FF2121EFFF2121
+      EFFF2121EFFF2121EFFF2121EFFF0010A5FF00FFFFFF0010A5FF1010E7FF1010
+      E7FF0010A5FF0010A5FF10106BFFFF00FF000010A5FF2129DEFF4A5AFFFF5252
+      FFFF394AFFFF394AFFFF2121EFFF1010E7FF1010E7FF1010E7FF1010E7FF2121
+      EFFF2121EFFF2121EFFF0010A5FF1010E7FF1010E7FF2121EFFF2121EFFF2121
+      EFFF2121EFFF2121EFFF2121EFFF2121EFFF0010A5FF0010A5FF1010E7FF0810
+      CEFF0010A5FF0010A5FF10106BFFFF00FF000010A5FF3929EFFF4A5AFFFF5252
+      FFFF394AFFFF394AFFFF2121EFFF1010E7FF1010E7FF1010E7FF1010E7FF2121
+      EFFF2121EFFF1021BDFF00FFFFFF1010E7FF2121EFFF2121EFFF2121EFFF2121
+      EFFF2121EFFF2121EFFF2121EFFF2121EFFF2121EFFF2121EFFF1010E7FF0010
+      A5FF0010A5FF0010A5FF10106BFFFF00FF000010A5FF1010E7FF2931F7FF394A
+      FFFF394AFFFF2931F7FF0810BDFF10106BFF1010E7FF1010E7FF2121EFFF2121
+      EFFF0010A5FF00FFFFFF00FFFFFF2931F7FF2931F7FF2121EFFF2121EFFF2121
+      EFFF2121EFFF2121EFFF2121EFFF2121EFFF2931F7FF2931F7FF1829C6FF0010
+      A5FF00FFFFFF0010A5FF10106BFFFF00FF001021BDFF1010E7FF00FFFFFF00FF
+      FFFF1010E7FF10106BFF10106BFF1010E7FF2121EFFF2121EFFF2121EFFF3139
+      DEFF2139DEFF394AFFFF394AFFFF394AFFFF394AFFFF394AFFFF394AFFFF394A
+      FFFF394AFFFF394AFFFF394AFFFF394AFFFF394AFFFF3139DEFF2139DEFF0010
+      A5FF00FFFFFF00FFFFFF10106BFFFF00FF001021BDFF2121EFFF1010E7FF00FF
+      FFFF10106BFF0810BDFF1010E7FF2121EFFF3139F7FF3139DEFF3939C6FF3139
+      DEFF10106BFF10106BFF10106BFF10106BFF10106BFF10106BFF10106BFF1010
+      6BFF10106BFF10106BFF10106BFF10106BFF10106BFF08108CFF10106BFF0810
+      8CFF10106BFF00FFFFFF10106BFFFF00FF0008108CFF2121EFFF1010E7FF1010
+      6BFF10109CFF0810BDFF2931F7FF3139DEFF3139DEFF10106BFF10106BFF1010
+      6BFF639CE7FF6B9CEFFF6B9CEFFF639CEFFF639CEFFF6BA5EFFF399CF7FF6BA5
+      EFFF7BA5F7FF7BA5F7FF84ADF7FF73ADF7FF73ADF7FF73ADF7FF73ADF7FF73A5
+      F7FF6BA5F7FF10106BFF10106BFFFF00FF0029218CFF2129DEFF10106BFF1010
+      6BFF10106BFF10106BFF3139DEFF10106BFF00DEFFFF317BC6FF6BADF7FF73B5
+      F7FF080821FF080818FF080821FF081021FF081029FF6BC6EFFF6394D6FF94C6
+      FFFF9CC6FFFF9CCEFFFF9CCEFFFF94BDFFFF84B5FFFF394A63FF000008FF0008
+      10FF7BADEFFF10106BFFFF00FF0010106BFF10106BFF10106BFF319CDEFF29AD
+      FFFF29ADFFFF10106BFF10106BFF2163A5FF00DEFFFF397BC6FF7BB5F7FF0000
+      08FF000000FF000000FFFFADA5FF000008FFFFFFFFFF293142FF94C6FFFFADD6
+      FFFFB5D6FFFFADD6FFFF94CEFFFF84B5F7FF212129FF080008FF000000FFFFFF
+      FFFF000000FF10106BFFFF00FF0010109CFF10106BFF2163A5FFA5CEFFFFA5CE
+      FFFF29ADFFFF0010A5FF00C6EFFF2163A5FF00DEFFFF397BC6FF000000FFFFAD
+      A5FFFFADA5FF000000FFFFADA5FF000000FF181821FFADD6FFFF9CCEFFFFADCE
+      FFFFADD6FFFFADD6FFFF9CCEFFFF7BA5F7FF213139FFFFADA5FF000000FF0000
+      00FF000000FF2163A5FFFF00FF001021D6FF10106BFF2163A5FFA5CEFFFF0010
+      A5FF0010A5FF0010A5FF00DEFFFF2163A5FF29FFFFFF3173C6FF94C6FFFFFFFF
+      FFFFFFFFFFFF000000FF734A21FFFFADA5FFF7ADADFFA5D6FFFFA5CEFFFFBDDE
+      FFFFBDDEF7FFB5DEFFFF9CCEFFFF84ADF7FFF7BDBDFF000000FFFFADA5FFFFAD
+      A5FF8CBDEFFF4A73BDFFFF00FF002129DEFF10106BFF187BA5FFC6D6FFFF0010
+      A5FF6BA5DEFF0010A5FF52E7FFFF2163A5FF29FFFFFF397BC6FF94C6FFFFF7FF
+      FFFFFFFFFFFFFFFFFFFF000000FF000000FFF7B5ADFFA5D6FFFFADD6FFFFC6DE
+      FFFFBDDEFFFFB5DEFFFFA5CEFFFFA5C6FFFFFFFFFFFF000000FFFFADA5FFFFAD
+      A5FF8CC6F7FF2163A5FFFF00FF002931F7FF10106BFF2163A5FF7BBDF7FF2163
+      A5FF6BA5DEFF6BA5DEFF2163A5FF2163A5FF52FFFFFF3984C6FF94C6FFFF9CCE
+      FFFF9CCEFFFF9C5252FFA54242FF9C4A4AFFADD6FFFFA5CEFFFFB5DEFFFFBDDE
+      FFFFBDDEFFFFADDEFFFF9CCEFFFF9CCEFFFFFFFFFFFFFFFFFFFF000000FF0000
+      00FF9CCEFFFF2163A5FFFF00FF002931F7FF0810BDFF10106BFF7BBDF7FF2163
+      A5FF2163A5FF6BA5DEFF8CBDF7FF2163A5FF1873A5FF317BC6FF8CC6FFFFA5D6
+      FFFF9CCEFFFFADCEFFFFB5D6FFFFADD6FFFFADD6FFFFBDDEFFFFBDDEFFFFC6E7
+      FFFFBDDEFFFFB5DEFFFFADD6FFFFB5DEFFFFCEE7FFFF9C4242FF9C3939FF9CCE
+      FFFF94C6FFFF396BB5FFFF00FF001010E7FF10106BFF0010A5FF7BBDF7FF7BBD
+      F7FF7BBDF7FF6BA5DEFF8CC6FFFFADCEFFFF398CC6FF5A9CF7FF8CC6FFFFA5D6
+      FFFFBDDEFFFFB5BDFFFFB5BDFFFFBDCEFFFFDEEFFFFFDEEFFFFFD6EFFFFFD6EF
+      FFFFE7F7FFFFA5CEFFFFA5D6FFFFC6E7FFFFD6EFFFFFB5BDFFFFC6DEFFFF9CCE
+      FFFF84ADEFFF426B63FFFF00FF0010106BFF0010A5FF0810BDFF0010A5FF29AD
+      FFFF29ADFFFF29ADFFFF73C6FFFFADCEFFFF6BADF7FF6BADF7FF9CC6FFFFA5DE
+      FFFFB5D6FFFFBDD6FFFFB5BDFFFFB5BDFFFFB5BDFFFFDEEFFFFFCEEFFFFFDEEF
+      FFFFFFFFFFFF84ADE7FF8CC6FFFFB5DEFFFFBDC6FFFFB5BDFFFFB5BDFFFF9CCE
+      FFFF4A73BDFFFF00FF00FF00FF000010A5FF1010E7FF0810BDFF0810BDFF0010
+      A5FF000818FF29ADFFFF001821FF000818FF528CE7FF84BDFFFF84BDFFFFA5CE
+      FFFFADDEFFFFC6DEFFFFCEDEFFFFCEDEFFFFCEEFFFFFD6DEFFFFCEDEFFFFB5DE
+      FFFF317BBDFF295A8CFF73B5EFFFB5DEFFFFC6DEFFFFBDDEFFFFA5D6FFFF73B5
+      F7FF73846BFFFF00FF00FF00FF001010E7FF1010E7FF3139F7FF1829C6FF0810
+      BDFF000863FF000000FF2163A5FFFF00FF00184A7BFF528CE7FF7BB5FFFF84BD
+      FFFF9CD6FFFFB5DEFFFFC6E7FFFFCEEFFFFFCEEFFFFFCEEFFFFFCEDEFFFFB5DE
+      FFFFADD6FFFFADD6FFFFADD6FFFFC6E7FFFFCEDEFFFFADD6FFFF84C6F7FF638C
+      B5FFFF00FF00FF00FF00FF00FF001010E7FF394AFFFF394AFFFF1010E7FF0010
+      A5FF080842FFFF00FF00FF00FF00FF00FF00FF00FF00213139FF5284D6FF7BB5
+      FFFF8CBDFFFFA5D6FFFFB5DEFFFFC6DEFFFFC6DEFFFFC6E7FFFF081829FFBDD6
+      FFFFADD6FFFFADD6FFFF29395AFFBDD6FFFFADD6FFFF84BDF7FF638CB5FFFF00
+      FF00FF00FF00FF00FF00FF00FF000010A5FF1010E7FF1010E7FF0010A5FF0010
+      A5FF000863FFFF00FF00FF00FF00FF00FF00FF00FF00000000FF2963ADFF4263
+      ADFF73A5F7FF94C6FFFFADCEFFFFADDEFFFFB5DEFFFFB5DEFFFFB5DEFFFF0818
+      29FF081829FF082139FFBDD6FFFFADCEFFFF94C6FFFF527BADFFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF0010106BFF1010E7FF0010A5FF0810CEFF1010
+      E7FF000863FFFF00FF00FF00FF00FF00FF00FF00FF00000000FF216BB5FF2163
+      9CFF31529CFF6B94F7FF8CC6FFFFA5C6FFFFADD6FFFFADD6FFFFADD6FFFFB5DE
+      FFFFB5DEFFFFB5DEFFFFA5CEFFFF8CC6F7FF4A7BADFFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF0010106BFF0810CEFF0810BDFF2129
+      EFFF000863FFFF00FF00FF00FF00FF00FF00FF00FF00000000FF3973C6FF3184
+      C6FF317BBDFF295AA5FF426BB5FF6BA5F7FF8CBDFFFF94CEFFFF94CEFFFF9CD6
+      FFFFA5D6FFFF9CCEFFFF8CBDFFFF5A84B5FFFF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF0010106BFF08108CFF1010
+      E7FF080842FFFF00FF00FF00FF00FF00FF00FF00FF00080008FF397BC6FF528C
+      CEFF5A9CDEFF398CCEFF297BCEFF396BB5FF396BB5FF2163A5FF2163A5FF2163
+      A5FF396BB5FF4A73BDFFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF0008108CFF1010
+      E7FF000863FFFF00FF00FF00FF00FF00FF00FF00FF00000818FF397BC6FF5294
+      D6FF5A9CE7FF84B5EFFF73ADEFFF639CDEFF6B9CDEFF6B9CE7FF7BB5EFFF84B5
+      EFFF001821FFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00000000FF000000FF0000
+      00FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF0000
+      00FF000000FF000000FFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00000000FF000000FF000000FF0000
+      00FF000000FF000000FF080810FF080808FF181818FF181818FF080808FF0000
+      00FF000000FF000000FF000000FFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00000000FF000000FF000000FF000000FF0000
+      00FF000000FF000000FF212121FF181818FF000000FF000000FF000000FF1010
+      10FF101010FF000000FF000000FF000000FFFF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00000000FF000000FF000000FF000000FF000000FF0000
+      00FF000000FF000000FF000000FF292929FF212929FF000000FF000000FF0000
+      00FF000000FF000000FF000000FF000000FF000000FFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00000000FF000000FF000000FF000000FF000810FF527BBDFF7BAD
+      E7FF4A7BB5FF000000FF000000FF000000FF292931FF292929FF080808FF0000
+      00FF000808FF000000FF000000FF000000FF000000FFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00000000FF000000FF000000FF5284C6FF6394CEFF94C6F7FF94C6
+      FFFF84B5EFFF6B9CD6FF081829FF000000FF080808FF212121FF080808FF0000
+      08FF000000FF000000FF000000FF080808FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF000000FF102942FF5294E7FF8CBDF7FFADDEFFFFA5D6
+      FFFF9CCEFFFF8CC6F7FF4273B5FF000008FF000000FF000000FF000000FF2121
+      21FF101010FF000000FF000000FF080808FF080808FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF000000FF5A94DEFF6BADEFFFADDEFFFFBDE7FFFFB5E7
+      FFFFA5D6FFFF9CCEFFFF8CC6F7FF5A84C6FF4273ADFF528CC6FF4A94E7FF4A8C
+      DEFF528CCEFF081021FF181818FF101010FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF000808FF7BB5F7FF73B5F7FFB5DEFFFFC6EFFFFFB5E7
+      FFFFA5D6FFFF9CCEFFFF9CCEFFFF94C6F7FF8CBDEFFF84BDEFFF7BB5EFFF73AD
+      EFFF529CEFFF528CCEFF081021FF000000FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF081010FF8CC6F7FF73B5F7FFADD6FFFFC6EFFFFFB5E7
+      FFFFB5DEFFFFB5DEFFFFADD6FFFFADD6FFFFADD6FFFF9CCEFFFF94CEFFFF9CCE
+      FFFF63A5EFFF4A94E7FF184263FF000000FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF101818FF8CC6F7FF63A5EFFFB5DEFFFFC6EFFFFFC6EF
+      FFFFC6EFFFFFC6E7FFFFC6E7FFFFBDDEFFFFBDDEFFFFADDEFFFFADDEFFFFA5D6
+      FFFF6BA5EFFF4A94EFFF29527BFF000000FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF7BA5D6FF7BB5F7FF5A9CEFFFADDEFFFFC6EFFFFFC6EF
+      FFFFC6EFFFFFC6EFFFFFC6E7FFFFBDDEFFFFADD6FFFFA5D6FFFFA5D6FFFF9CCE
+      FFFF7BB5EFFF4A94E7FF183152FF000000FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF101018FF7BB5EFFF7BADE7FF101829FF000808FF101818FF2931
+      39FFA5D6FFFF84B5E7FF94C6F7FF94C6F7FF8CC6F7FF000808FF000808FF0008
+      08FF000000FF000008FF000008FF000000FF000000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF080808FF5AA5EFFF73A5E7FF6394CEFF638CCEFF5284BDFF5284
+      BDFF5284BDFF6BA5D6FF739CCEFF6394CEFF101829FF5284BDFF5284BDFF5284
+      BDFF638CCEFF6394CEFF6394CEFF000000FF000000FFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF000000FF4A94EFFF84BDF7FF000000FF000000FF000808FF0008
+      08FF94C6F7FF84B5E7FF94B5DEFF000000FF6394CEFF000808FF000808FF0008
+      08FF000000FF9CCEFFFF6394CEFF000000FF000000FFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00000000FF5294E7FF8CC6FFFF9CCEFFFF000000FF000000FF9CCE
+      FFFF8CBDF7FF8CBDEFFFCEE7FFFF182931FF94C6F7FF6394CEFF000000FF0000
+      00FF9CCEFFFF9CCEFFFF6394CEFF000000FF4273ADFF000808FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF4273ADFF5294E7FF9CCEFFFFADD6FFFFADD6FFFFA5D6FFFFA5D6
+      FFFF94C6F7FF8CBDEFFFC6DEFFFF29394AFF94C6F7FF9CCEFFFF9CCEFFFF9CCE
+      FFFF9CCEFFFF94CEFFFF6394CEFF6394CEFF4273ADFF000008FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF21426BFF529CEFFFA5CEF7FFC6E7FFFFCEEFFFFFC6EFFFFFBDE7
+      FFFF94C6F7FF8CBDEFFFC6E7FFFF94C6F7FF8CBDF7FFB5DEFFFFBDE7FFFFBDE7
+      FFFFB5DEFFFF94C6F7FF5A8CCEFF5A8CCEFF213963FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF4A7BB5FF6394D6FF9CCEF7FFC6E7FFFFCEEFFFFFCEEFFFFFB5DE
+      FFFF8CBDF7FF8CBDEFFFC6E7FFFF94C6F7FF8CBDF7FFADD6FFFFC6E7FFFFC6EF
+      FFFFC6E7FFFF94BDEFFF5A94CEFF18314AFF4273ADFF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00000000FF4A7BB5FF6394CEFF94BDEFFFB5D6F7FFC6E7FFFFCEEFFFFFADD6
+      FFFF9CCEFFFF8CBDF7FFC6E7FFFF101818FF94CEFFFFA5D6FFFFBDDEFFFFC6E7
+      FFFFBDDEFFFF7BADE7FF6394CEFF102131FF4A7BB5FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00101829FF638CCEFF7BADE7FFADD6F7FFBDDEFFFFBDDEFFFFA5D6
+      FFFF21314AFF94CEFFFFDEEFFFFF081018FF000810FF9CCEFFFFB5DEFFFFBDDE
+      FFFF9CCEF7FF6BA5DEFF5A94CEFF081018FF000000FFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00081018FF6394CEFF6BA5E7FF8CBDEFFFBDDEFFFFADD6FFFF9CCE
+      FFFF8CC6FFFF84BDFFFF21395AFF73B5FFFF8CC6FFFF9CCEFFFFA5D6FFFFADD6
+      FFFF84B5EFFF639CDEFF5A8CCEFF080810FFFF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00213963FF639CE7FF73ADE7FFA5CEFFFF9CCEFFFF9CCE
+      FFFF9CD6FFFF8CBDF7FF8CC6F7FF94C6F7FF94C6F7FF9CCEFFFF94C6F7FF94CE
+      FFFF73ADE7FF6BA5E7FF102131FFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00101829FF639CE7FF6BA5E7FF94C6F7FF9CCEF7FFADDE
+      FFFF182939FF9CD6FFFF182939FF182939FF182939FF182939FFA5D6FFFF8CC6
+      F7FF73ADEFFF528CCEFF101821FFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF0018314AFF6BA5EFFF8CBDF7FFB5DEFFFFA5DE
+      FFFFADDEFFFF63BDF7FF63BDF7FF63BDF7FF63BDF7FFA5D6FFFFA5D6FFFF8CC6
+      F7FF7BB5EFFF21314AFF080810FFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00080810FF6B9CDEFF6BA5EFFF8CC6FFFF9CD6
+      FFFF8CCEFFFF18314AFF18314AFF18314AFF94CEFFFF9CD6FFFF94CEF7FF7BB5
+      F7FF528CD6FF081010FF000000FFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00101829FF5A9CDEFF73B5FFFF8CCE
+      FFFF7BBDFFFF529CE7FF5294DEFF529CE7FF6BADF7FF8CC6FFFF84BDF7FF528C
+      D6FF081829FFCECED6FF000000FF000000FFFF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00000000FFCECED6FF102139FF6BA5EFFF84BD
+      FFFF9CCEFFFFB5DEFFFFB5E7FFFFB5DEFFFF94CEFFFF84C6FFFF5A9CEFFF0818
+      31FFCECECEFFF7F7F7FF000000FF840000FF000000FFFF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00FF00FF00000000FF000000FFF7F7F7FFEFF7F7FF102131FF73AD
+      EFFFA5CEFFFFBDE7FFFFBDE7FFFFBDE7FFFF9CCEFFFF5A8CD6FF102942FFDEE7
+      E7FFFFFFFFFFFFFFFFFF000000FF840000FF840000FF000000FFFF00FF00FF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+      FF00FF00FF00000000FF840000FF000000FFFFFFFFFFFFFFFFFFDEE7E7FF2131
+      52FF73A5DEFF84BDFFFF8CBDFFFF7BB5F7FF528CCEFF183152FFE7EFF7FFFFFF
+      FFFFFFFFFFFFFFFFFFFF000000FF9C0808FFAD1010FF840000FF000000FFFF00
+      FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF000000
+      00FF080000FFB51818FFA51010FF000000FFFFFFFFFFFFFFFFFFFFFFFFFFCED6
+      D6FF182939FF29394AFF29394AFF29394AFF182942FFBDC6CEFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFF000000FFA51010FFCE2929FFB51818FF8C0000FF0000
+      00FFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00000000FF8C00
+      00FFAD1010FFAD1010FF8C0000FF000000FFFFFFFFFFFFFFFFFFFFFFFFFFDEDE
+      DEFF000000FF0000FFFF0000FFFF0000FFFF000000FFDEDEDEFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFF000000FF940808FFB51818FFBD1818FFA51010FF8400
+      00FF000000FFFF00FF00FF00FF00
+    }
+  end
+  object OpenDialog1: TOpenDialog
+    FileName = '*.csv'
+    left = 128
+    top = 96
+  end
+  object TrayIcon1: TTrayIcon
+    PopUpMenu = PopupMenuTray
+    Icon.Data = {
+      EE1C00000000010003003030000001000800A80E000036000000202000000100
+      0800A8080000DE0E000010100000010008006805000086170000280000003000
+      0000600000000100080000000000000900000000000000000000000100000001
+      0000000000008A511D00AA640000AD670100B16C0700B16D0800BA750600BC78
+      0700B5730E00BF7B0900AF6D1000BA781100BC7C15008A5522008A582400B477
+      2000C07C0B00C17E0E007586790076897E00BA813000BF853100BF893C00CA86
+      0D00C2801100C3811400C4831700CB881000CC8B1500C5851A00C5871C00C688
+      1E00CE8D1A00C88A1F00CF901E00D4911100D7961A00D8991E00C4872000C689
+      2100C88C2500C98E2900CA902B00CA912E00D0932200D2952600D99A2000D99C
+      2200DA9D2500D3972900D3982B00D49B2F00DB9F2800CC933100CC953300CD96
+      3500CE993900CF9B3D00D69D3300D09C3E00DCA02900DDA22C00DEA53100D9A2
+      3700DFA73500D9A43D00E0A83600E1AA3A00E2AB3C00E2AD3E00BF8A4000838C
+      7400969B7C00A09A6C00B5927300BEA76300B0A36A00B1A46D00A5A27900B2A6
+      7000B3A87300B4AB7800B5AD7B00B6AF7E00D09D4100C4945000CA9E5B00DAA6
+      4100DEA94000DFAC4300DCA94600D2A14B00DCAB4900DDAD4D00D0A45E00DCAE
+      5900DFB05100DBB55A00E3AE4000E4AF4200E4B04300E4B14600E6B34900E6B4
+      4A00E7B64D00E8B74E00E0B25400E1B45600E9B95200E9BA5500E1B55A00E3B8
+      5D00E4B95F00E9BB5900EABD5900ECBF5C00CA9E6000D1B76C00D2B86F00CFA8
+      7000C5B77B00D5B27900D4B17D00E4BA6200E5BD6500EABF6400ECC05E00D6C1
+      7E00EDC26000EEC46300EEC56500E1C06C00F0C76900F1CA6D00F2CD7100F3CF
+      7400F4D07600F5D27A00F6D47D000B06930000009D000B0B9B00000BAE00000C
+      AD00000FB000403AA700403DAE0000519D0010599B003A6B8B003B6C8D003C6F
+      91003C7092003D7194000458A300075EA9000B60A9000C65AF00186CAF000E6B
+      B600106CB6001870B6002276B6005A498800497286004C7890004D7B95004040
+      B5000B30CD000038DB00003CE9000B44CA000B43D6000B57DF001477C200227F
+      C2000044E000004FE5000044EC000054F400778B8100788C8200788D85007990
+      8A007B928D006C8C91001A83CE002D8ECE003489C2003A95CE003C97CE003E98
+      CE002B9FE70039B9FF004199CE00449BCE00459CCE0048A1D40048AFE70060BC
+      E70065BFE70068C1E70060CFFF0075DAFF0079DCFF007DDEFF008B9C8E00B8B3
+      8400B9B48700BFADBB00C9BE8700D5B28000D9C68500F7D78100F8D78200F8D9
+      8500F9DB8800E7CFA900E9D2A900EAD8B600EAD8B900EAD8BD00BFB3CA00BFBF
+      E70081E0FF0085E2FF0087E4FF008AE5FF00DFC9C000FFE6C500FFE7C800FFE8
+      CA00FFEACD00FFEBD000FFECD400FFEFDA00FFF3E100FEF5E100FFF4E600FFF6
+      E900FEF8E900FFF9F000FFFFF300FFFCF600FFFFF900FFFFFE00000000000000
+      000000000000000000000000000000000000000000000000000000000000FFFF
+      FF00000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000020202020202020202020202020202020202020202020202020200000000
+      0000000000000000000000000000000000000256797979797979797979797979
+      7979797979797979797979027900000000000000000000000000000000000000
+      000002DBF2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2F202D3000000
+      00000000000000000000000000000000000002DCF2FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFF202D300000000000000000000000000000000000000
+      000002DCFFF2FFF2F2FFF2F2FFF2F2FFF2F2FFF2F2FFF2F2FFF2FF0279000000
+      00000000000000000000000000000000000002DCFFEEEEEEEEEEEEEEEEEEEEEE
+      EEEEEEEEEEEEEEEEEEF2F202D300000000000000000000000079D3D379D3D379
+      D37402DCFFEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBF2FF0246D379D3
+      00000000000000000A02020202020202020202DCFFE8E8E8EBE7E8EBE7E8EBE7
+      E8EBE7E8EBE7E8EBE7F1FF020202020202770000000000000231424242424242
+      420502DCFFE6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6EEFF0202214242
+      0B020000000000790242624262426242420202DDFFE6E6E6E5E6E5E5E5E6E5E5
+      E6E5E5E6E5E5E6E5E6F1FF02021F424227020000000000D30262626262626265
+      6202021446151515151515151515151515151515151515151516160202276562
+      2702000046020202020202020202053F650C0202020202020202020202020202
+      020202020202020202020202023A65652702007402070909090909090909020B
+      6758080202020202020202020202020202020202020202020202020226676567
+      2802000206232323232323232323090258676967676767676767676767676767
+      676767676767676767676767676769672802000209233D3E3E3E3E3E3D231702
+      3F716D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D
+      29020002092F42654265426542251702577149121212476D4912121212614B12
+      121212616DA49595959595959595496D2A020002093D65656565656565251702
+      577195AEBABA9B4C95AEBABA9B4C95AEBABA9B4C7193C9C9C9C9C9C9C9BC1271
+      2A020002093D656565656565652517025C8095C0C1C19F4C95C0C1C19F4C95C0
+      C1C19F4C8093E3E3E3E3E3E3E3C413802A020002093D676767676767672F1702
+      5C81959DA0A09A4F979DA0A09A4F979DA0A09A4F8193E3E3E3E3E3E3E3C41381
+      35020002093E696969696969692517025C817650505050817550505050817550
+      505050818193E3E3E3E3E3E3E3C4B48135020002093E6D6D6D6D6D6D6D251702
+      608448B5B5B5B5834EB5B5B5B5834EB5B5B5B5768493E3E3E3E3E3E3E3C4B584
+      35020002093E6D6D6D6D6D6D6D2F1702608498AFBBBB9D5097AFBBBB9D5097AF
+      BBBB9D508493E3E3E3E3E3E3E3C4B58438020002093E716D716D6D6D712F1702
+      698697C6CACAA15298C6CACAA15298C6CACAA1528693E3E2E3E2E3E2E3C4B786
+      380200020942808080808080802F17026186A59393939378A59393939378A593
+      939393528693E2E2E2E2E2E2E2BFB786380200020942808080808080802F1702
+      6E888888888888888888888888888888888888888893CDE0CDE0CDCDE0C4B788
+      380200020942818180818081812F17026E88B8989898987FB8989898987FB898
+      9898987F8893CDCDCDCDCDCDCDBEB888380200020942848184818481813D1702
+      6F8899C5C7C7A1CF98C5C7C7A1CF98C5C7C7A1CF8893CDCCCDCCCDCCCDBEB888
+      540200020942848484848484842F170270D699C8E2E2A2CF98C8E2E2A2CF98C8
+      E2E2A2D0D693CCCCCBCCCBCCCBBDB8D7540200020962868484848484843D1702
+      70D6A693939394D4B993939394D4B993939393D2D6949393939393939393CED6
+      540200021062868686868686863D1B0270D8D6D8D6D6D6D8D6D8D6D6D6D6D6D6
+      D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6D6540200021167868686868686863E1B02
+      7CD8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8
+      5B020002116786868886888688422102DAEEEDEEEDEEEDEEEDEEEDEEEEEEEEEE
+      EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEF0D3020002196C88888888888888422C02
+      7479D379D379D379D379D37979D37979D37979D37979D37979D37979D379D379
+      0A0F00021A6D88888A88888A88672C0202020202020202020202020202020202
+      020202020202020202020202020202020F0000021A718A8A8A8A8A8A8A652C02
+      0000D302FFEEE8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8FFDC02000000
+      000000021F808A8A8A8A8A8A8A67330200007902FFEEE8E7E8E7E8E7E8E7E8E7
+      E8E7E8E7E8E7E8E7E8E7FFDC02000000000000021F81D7D7D7D7D7D7D76C3302
+      0000D302FFEDE6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6FFDD02000000
+      000000022781D6D6D6D6D6D6D66D3A020000D302FFEDE6E6E6E6E6E6E6E6E6E6
+      E6E6E6E6E6E6E6E6E6E8FFDC02000000000000022880D6D8D8D8D8D8D66D5F02
+      00007902FFEDE6E5E5E5E5E5E5E5E5E5E5E5E5E5E49191919191A7A302000000
+      000000025E7188D8D8D8D8D8867DD9020000D302FFEDE6E5E5E5E5E5E5E5E5E5
+      E5E5E5E5D18C8F8F8F8F8D01020000000000000A74FFFFFFFFFFFFFFFFFF7702
+      00007902FFEEE5E5E5E5E5E5E5E5E5E5E5E5E5E5D18CA9B2AAA8010200000000
+      000000740274D3D3D3D3D3D3D37702460000D302FFEDE6E5E5E5E5E5E5E5E5E5
+      E5E5E5E5D18CB0B3AC0102000000000000000000550202020202020202024600
+      00007902FFEEE5E5E5E5E5E5E5E5E5E5E5E5E5E5D18CB1AD0E02000000000000
+      000000000000000000000000000000000000D302FFEEEBE8EBE8EBE8EBE8EBE8
+      EBE8EBE8DE8CAB0D020000000000000000000000000000000000000000000000
+      0000D302FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDF8B01020000000000000000
+      0000000000000000000000000000000000007902D379D37979D37979D37979D3
+      7979D3794A010200000000000000000000000000000000000000000000000000
+      0000D30202020202020202020202020202020202020200000000000000000000
+      0000FFFFFFFFFFFF0000FFFF0000003F0000FFFF0000001F0000FFFF0000001F
+      0000FFFF0000001F0000FFFF0000001F0000FFFF0000001F0000FE0000000003
+      0000FC00000000000000FC00000000000000F800000000000000F80000000000
+      0000C00000000000000080000000000000008000000000000000800000000000
+      0000800000000000000080000000000000008000000000000000800000000000
+      0000800000000000000080000000000000008000000000000000800000000000
+      0000800000000000000080000000000000008000000000000000800000000000
+      0000800000000000000080000000000000008000000000000000800000000000
+      000080000000000000008000000000000000800000000001000080030000001F
+      000080030000001F000080030000001F000080030000001F000080030000001F
+      000080030000001F000080030000003F000080030000007F0000C007000000FF
+      0000FFFF000001FF0000FFFF000003FF0000FFFF000007FF0000FFFF00000FFF
+      0000280000002000000040000000010008000000000000040000000000000000
+      000000010000000100000000000056417C008A521F00AA640000AD670300B06B
+      0200B06C0700B46F0500B8730600B3700A00B4710D00B8750900B9770E00BF7A
+      0800A4641300A2661D00A2681F00B5741100B1711600B6761500BA781100BC7B
+      1300BC7C1500B3751A00B3751D00BE7F19008A5D2800B87C2400B47A2900B87D
+      2A00B97F2E00C07C0B00C17E1000BF842400BB833400BF893F00CC890D00C282
+      1400C0811A00C4841800C5871D00D8991E00C6892100C98E2900CA912D00D59A
+      2C00DB9F2900D89E2F00CB943200CC963500CE993A00CF9A3C00D0973000D29A
+      3300D39C3400D09C3E00DCA22D00DEA53100D9A03400DEA63400DFA83500DAA4
+      3A00DCA73D00E0A83700E0A93800E2AC3D00BF8A400089927800AE9F6500A19B
+      6D00BBA76600B1A56E00B7AB7500B5AC7A00B9B17E00C08C4200C18F4700C493
+      4E00CD9C4D00D09D4100C6975200C6975400C6985100C6985500C89A5700C99C
+      5D00DFAB4200DEAB4500DFAE4900C2A85F00C5A95D00CAAB5C00E2AE4000E4B0
+      4300E5B24600E5B34800E5B44A00E1B14F00E6B54D00E2B45300E1B65500E6B8
+      5400E8B85200EABB5600EABC5700E4B75800E5BA5C00ECBF5D00CDAF6000CDA5
+      6B00C5AE6900D4A56200D3A86100C6B16D00D3B76A00D5BA6F00D4AD7500D4AF
+      7A00C8B47200C9B67600CEBB7A00CBBB7E00D4B17A00D4B17D00E7BC6000E1BD
+      6700E8BF6400ECC05D00D8C07800D9C27C00EDC36200EDC36500EFC66700E9C2
+      6900EFC76800F0C86B00F1CA6D00EBC57000E6C97A00F2CB7000F3CE7300F4D1
+      7900F7D57F00242B9A002A2BA9002B2DAD003F39A7003F3BAA00244DAD00244D
+      B5001669AD001D6DAC002F73A1002E76AA003374A000357AAA002077B800277E
+      BD00624F87004E7688005E7C810050798D00457D9B00417B9C00517B9000527C
+      92006359AC00002CCF00002ED6001578C200014CE5002981BC002D82BD003884
+      B10057829300598192005F8898005F8C9B0062848D0069888900688A8F007A8F
+      85007A908A007C94890064899000668F980066909A0066929D006593A1002784
+      C600368DC5003B8FC2002B9FE6004D97C0004A98C30058A4C8004FB9EE0063C4
+      EE0069C7EE006DC9EE0072CCEE0074CDEE0077DBFF007EDEFF00879581008C98
+      8100879788008F9D8A00A8AB8A00B8B38500BDB68700CDBE8200D7B58400D9BA
+      8C00E2BC8800E2BF8D00D5C38500F7D78300F8D78300F8D88500E2C19200E2C8
+      A200EED8AA0083E1FF008AE5FF00DFD3CD00E9D3C100E9D7CB00F0D9C200FFE6
+      C500FCECC300FFE7C900F9EACB00F8EBCC00FFEACE00F1E5D200F1E5D400FFEB
+      D100FFECD200FFEDD600FFEFDA00FCF2D500FFF0DD00FFF3E200FFF6EB00FFF8
+      EE00FFFBF200FFFBF400FFFEF600FFFDF8000000000000000000000000000000
+      000000000000FFFFFF0000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000001D52525252525252525252
+      5252525252170000000000000000000000000000007AF8FFFFFFFFFFFFFFFFFF
+      FFFFFFFFF8520000000000000000000000000000007AFFF8FFF8FFF8FFF8FFF8
+      FFF8FFF8F85200000000000000000000000000006D7AF8F2F3F3F2F3F3F3F2F3
+      F3F3F2F3F85200000000000000004C1D1D1D1D1D127AF5EEEEEEEEEEEEEEEEEE
+      EEEEEEEEF852171D1DD4000000000C3B40404040047AF5E5E5E5E5E5E5E5E5E5
+      E5E5E5E5F8520A2F2D0A0000000016405C405C400442746F6F6F6F6F6F6F6F6F
+      6F6F6F6F751D0A2F2F0A0055050505050505163E190404040404040404040404
+      040404040304195C3E0A000A2424242424240535563535343434343434343434
+      34343434343556623E0A0008293B3F3F3F291F2B645A595A645A5A59645B5A59
+      655A444444444459560A00083B405D5C5C2E1F2B46A3AD9A45A3AD9845A3AD98
+      6CA0C3C3C3C3C1B3580A00083F625D625D380D3447ABC0A943ABC0A943ABC0A9
+      6E9FE0E0E0E0C9B9621200083F62626262380D3472CCB7B571CCB7B571CCB7B5
+      7D9FE0E0E0E0C9B9640A00084067676767380D3476B8B1AE48B4B1AE48B4B1AE
+      73A1E0E0E0E0C9BB691200085C676767673F0D3149BFC4BDCDBFC4BDCDBFC4BD
+      77A1E0E0E0E0C9BB6A1200085D7F7F7F7F3F0D3279B2A4A44AB2A4A44AB2A4A4
+      80A1DFDFDFDFC7BB7C1400085D82828282400D3280CEB7B679CEB7B679CEB7B6
+      8AA4CBCBCBCBC6BC7C1200086282868286400D4FD1C1C7BECFC1C7BECFC1C7BE
+      D3A4CACACACAC5BC851300086288888888401F4FD299AB97D09BAB97D09BAB96
+      D8AF9D9D9D9D9CB18513000C66888B8B8B5D1F4FDBDBDBDBDBDBDBDBDBDBDBDB
+      DBDBDBDBDBDBDBDB89130008678B8C8B8C621F70E6E6E6E6E6E6E6E6E6E6E6E6
+      E6E6E6E6E6E6E6E6DE1B000D828D8D8D8D67251D525254525452545252545252
+      5452525452525452424C0016828D8D8D8D6727520018DDD7D7D7D6D7D7D6D7D7
+      D6D7D7D6DCD51E000000001682D9D98DDB6B2700001DF8EEE5E7E7E5E7E7E5E7
+      E7E5E7E7F2EC42000000001688D9DBDBD9822A00001DF8E7E7E5E5E5E5E5E7E5
+      E5E5E5E5F2EC42000000002185DBDBDBDB824E00001DF8EAE5E5E5E5E5E5E5E5
+      E4A6909090014C000000004CE8F1F1F2F1E85500001DF8E7E7E5E5E5E5E5E5E5
+      E292A7A88F0200000000004C4C4E5452524D2200001DF8EAE5E5E5E5E5E5E5E5
+      E292AA9510000000000000000000000000000000001DF8EEEAEAEAEAEAEAEAEA
+      E392941A00000000000000000000000000000000001DECECECECECECECECECEC
+      E19E100000000000000000000000000000000000001D1D1D1D1D1D1D1D1D1D1D
+      1E0E0000000000000000FFFFFFFFFFE0000FFFE0000FFFE0000FFFC0000FF000
+      0000F0000000F000000080000000800000008000000080000000800000008000
+      0000800000008000000080000000800000008000000080000000800000008000
+      000080000000802000078060000780600007806000078060000F8060001FFFE0
+      003FFFE0007FFFE000FF28000000100000002000000001000800000000000001
+      000000000000000000000001000000010000000000004C3B7800BE7A0800BE7F
+      1900BF852A00BA813000C4851900C4861C00C6881E00C78A2100C78B2400C98F
+      2B00CD912600CA913000CD963600CE9A3B00D09C3F00DDA32F00DEA53100D9A3
+      3A00E1AB3B00E1AB3C008F987F0091967800A6806400A29D6F00A49E6E00A9A0
+      6D00B5A36500C9984B00C7985600C89B5800D2A45500D2A65E00E3AE4100E4B0
+      4400E6B44900E6B54C00E8B95200EABB5500EBBE5A00EBBF5C00C59C6000CCA1
+      6200CFA76D00D3A76000D5A96200D5AB6500D7AD6900D4AA6E00D7AF6D00D7B0
+      6F00D2AA7200D2AD7700D4AE7600D4B07B00D4B17F00D8B57B00EDC15F00EEC4
+      6300EFC66600F0C76900F1CA6D00F2CC7000F3CF7600F5D27900152CBE003550
+      9C0065868D007C9283007B918400799792007B9E9E004D8EAD004B93B8005295
+      B8006E96A0003B91C7003990C8004FADDE0068ADC7006DAEC4008A9A83008D9D
+      850080968900879E8F009AA1840093A08B0083A19600A4A683009487B7009F8F
+      B600D7B78700D8B68200D9B88500D4BA9400DBBD9200DCBF9300DDC19700DDC2
+      9900F7D68100E9C69400E2CAA400E9CCA200F6DEA200FAE3A400FBE6AF0081E0
+      FF008AE5FF00FFE6C500FFE7C800FFE8CA00F8EAD700FFEFDA00FFF2E100FFF3
+      E400FFF4E500FFFEFA00FFFEFE00000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000FFFFFF00000000000000606063636362605C
+      000000000000002C7575757575757566000000000000001E7471717171717166
+      350000000C141405676565656565653708070002020209090303030303030303
+      130921121411071B45194519451C5858520B2D22241407524954495449176C6C
+      510D2E24272308554A474A474A526C6C510D2E273A2409594456445644566B6B
+      50102E293D2709484D4C4D4C4E574F4F4B10303B3F290D696969696969696969
+      6920303F413B041F35303530303530352A5F333F643F1D00746E6D6E6E6D6E70
+      000039696A682B00746D6D6D6D5B42010000005C5E5D0000746E6E6E6E5A4300
+      0000000000000000375C3838381800000000FC030000F8030000F8010000C000
+      0000800000000000000000000000000000000000000000000000000000000000
+      000004030000040300008C070000FC0F0000
+    }
+    Visible = True
+    OnClick = TrayIcon1Click
+    OnDblClick = TrayIcon1DblClick
+    left = 328
+    top = 347
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.csv'
+    FileName = '*.csv'
+    left = 85
+    top = 362
+  end
+  object PopupMenu1: TPopupMenu
+    left = 219
+    top = 256
+    object MenuItemDelete: TMenuItem
+      Caption = 'delete'
+      OnClick = MenuItemDeleteClick
+    end
+    object MenuItemDeleteAll: TMenuItem
+      Caption = 'Delete All'
+      OnClick = MenuItemDeleteAllClick
+    end
+  end
+  object SQLQuery1: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    ReadOnly = False
+    Params = <>
+    left = 336
+    top = 264
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 60000
+    OnTimer = Timer1Timer
+    left = 385
+    top = 325
+  end
+  object PopupMenuTray: TPopupMenu
+    left = 376
+    top = 384
+    object MenuItemShow: TMenuItem
+      Caption = 'Show'
+      OnClick = MenuItemShowClick
+    end
+    object MenuItemExit: TMenuItem
+      Caption = 'Exit'
+      OnClick = MenuItemExitClick
+    end
+  end
+end

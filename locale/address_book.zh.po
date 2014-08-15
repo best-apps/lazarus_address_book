@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: kevin jiang <aaa>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: global.en
+msgid "English"
+msgstr ""
+
+#: global.nalable00
+msgctxt "global.nalable00"
+msgid "Position"
+msgstr "职务"
+
+#: global.nalable01
+msgctxt "global.nalable01"
+msgid "Office Phone"
+msgstr "公司电话.分机"
+
+#: global.nalable02
+msgctxt "global.nalable02"
+msgid "Office Fax"
+msgstr "公司传真"
+
+#: global.nalable03
+msgctxt "global.nalable03"
+msgid "Mobile Phone"
+msgstr "移动电话"
+
+#: global.nalable04
+#| msgid "Home Phone"
+msgctxt "global.nalable04"
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#: global.nalable05
+#, fuzzy
+#| msgid "Home Fax"
+msgctxt "global.nalable05"
+msgid "Home Phone"
+msgstr "家庭传真"
+
+#: global.nalable06
+#| msgid "E-Mail"
+msgctxt "global.nalable06"
+msgid "Home Fax"
+msgstr "家庭传真"
+
+#: global.nalable07
+msgctxt "global.nalable07"
+msgid "Office Address"
+msgstr "公司地址"
+
+#: global.nalable08
+msgctxt "global.nalable08"
+msgid "Home Address"
+msgstr "家庭地址"
+
+#: global.nalable09
+msgctxt "global.nalable09"
+msgid "Company Site"
+msgstr "公司网站"
+
+#: global.nalable10
+msgctxt "global.nalable10"
+msgid "Personal Site"
+msgstr "个人网址"
+
+#: global.nalable11
+msgctxt "global.nalable11"
+msgid "IM Account"
+msgstr "即时通讯帐号"
+
+#: global.nalable12
+msgctxt "global.nalable12"
+msgid "Memo 1"
+msgstr "备注1"
+
+#: global.nalable13
+msgctxt "global.nalable13"
+msgid "Memo 2"
+msgstr "备注2"
+
+#: global.nalable14
+msgctxt "global.nalable14"
+msgid "Memo 3"
+msgstr "备注3"
+
+#: global.nalable15
+msgctxt "global.nalable15"
+msgid "Memo 4"
+msgstr "备注4"
+
+#: global.nalablecode
+msgid "Code"
+msgstr "拼音简码"
+
+#: global.nalablecompanycountry
+msgid "Company"
+msgstr "公司或国家"
+
+#: global.nalablegroupdept
+msgid "Department"
+msgstr "部门或组"
+
+#: global.nalablename
+msgid "Name"
+msgstr "姓名"
+
+#: global.ndatabasenotconnected
+msgid "Database Not Connected"
+msgstr "数据库未连接。"
+
+#: global.ndefault
+msgid "Default"
+msgstr ""
+
+#: global.nhavevalue
+msgid "Alreday there is this value:"
+msgstr "已经存在此值。"
+
+#: global.nlabelall
+msgid "All Records"
+msgstr "所有记录"
+
+#: global.nlabelback
+#| msgid "<= Back"
+msgid "<= BackSpace"
+msgstr "<= 退格"
+
+#: global.nlabelcancel
+msgctxt "global.nlabelcancel"
+msgid "Cancel"
+msgstr "取消"
+
+#: global.nlabeledit
+msgid "Edit"
+msgstr "修改"
+
+#: global.nlabelexit
+msgid "Exit"
+msgstr "退出"
+
+#: global.nlabelgender
+msgid "Gender"
+msgstr "性别"
+
+#: global.nlabelman
+#, fuzzy
+#| msgid "Man"
+msgid "Male"
+msgstr "男"
+
+#: global.nlabelnew
+msgid "New"
+msgstr "新增"
+
+#: global.nlabelnull
+msgid " is Null."
+msgstr "为空."
+
+#: global.nlabelsave
+msgid "Save"
+msgstr "保存"
+
+#: global.nlabelwoman
+#, fuzzy
+#| msgid "Woman"
+msgid "Female"
+msgstr "女"
+
+#: global.nlableabout
+msgctxt "global.nlableabout"
+msgid "About"
+msgstr "关于"
+
+#: global.nlableadd
+msgid "Add"
+msgstr "增加"
+
+#: global.nlableall
+msgid "------All------"
+msgstr "------所有------"
+
+#: global.nlableauthor
+msgid "Author:"
+msgstr "作者:"
+
+#: global.nlablecancel
+msgctxt "global.nlablecancel"
+msgid "Cancel"
+msgstr "取消"
+
+#: global.nlableclose
+msgid "Close"
+msgstr "关闭"
+
+#: global.nlableconfirm
+msgid "Confirm"
+msgstr "确认"
+
+#: global.nlablecopytoclipboard
+msgid "Copy To ClipBoard"
+msgstr "复制"
+
+#: global.nlabledelete
+msgid "Delete"
+msgstr "删除"
+
+#: global.nlabledeleteall
+msgid "Delete All"
+msgstr ""
+
+#: global.nlabledisplay
+msgid "View Detail information in Text"
+msgstr "以文本方式查看信息"
+
+#: global.nlableemail
+msgid "E-Mail:"
+msgstr "电子邮件:"
+
+#: global.nlableexport
+msgctxt "global.nlableexport"
+msgid "Export"
+msgstr "导出"
+
+#: global.nlableexportsuccess
+#| msgid "Export sucessed."
+msgid "Export sucessed counts: "
+msgstr "导出成功记录数："
+
+#: global.nlableexporttitile
+msgid "Export csv file in UTF8."
+msgstr ""
+
+#: global.nlableformatcodeerr
+msgid "Code is null:"
+msgstr "代码是空。"
+
+#: global.nlableformatnameerr
+msgid "Name is null:"
+msgstr "姓名是空。"
+
+#: global.nlableformatnumerr
+msgid "Columns count error:"
+msgstr "字段数量错误。"
+
+#: global.nlablegroupcompany
+msgid "Select company"
+msgstr "选择公司或国家"
+
+#: global.nlablegroupdept
+msgid "Select group"
+msgstr "选择组"
+
+#: global.nlableimport
+msgid "Import"
+msgstr "导入"
+
+#: global.nlableimportsuccess
+#| msgid "Import sucessed."
+msgid "Import sucessed counts: "
+msgstr "导入成功记录数："
+
+#: global.nlablelanguage
+#| msgid "Language"
+msgid "Settings"
+msgstr "设置"
+
+#: global.nlablerun
+msgid "Could not run over one time."
+msgstr "本程序已经运行了，不能再运行。"
+
+#: global.nlableshow
+msgid "Show"
+msgstr "显示"
+
+#: global.nlablesoftinfo
+msgid "Free,Green Software. Powered by Lazarus and sqlite."
+msgstr "绿色，免费软件。 使用Lazarus 及 sqlite 开发。"
+
+#: global.nlableview
+msgid "View"
+msgstr "查看"
+
+#: global.nlanguageprompt
+msgid "you must restart this appliction to use new language."
+msgstr "重新启动程序所设置的语言才能生效。"
+
+#: global.nmainformcaption
+#| msgid "Address Book"
+msgid "Address Book Powered by LAZARUS "
+msgstr "通讯录 使用 LAZARUS 开发"
+
+#: global.nnotsavedata
+msgid "Have not save data."
+msgstr "尚未存储数据。"
+
+#: global.version
+msgid " Ver 1.00"
+msgstr ""
+
+#: global.zh
+msgid "Simplified Chinese"
+msgstr ""
+

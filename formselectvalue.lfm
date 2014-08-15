@@ -1,0 +1,35 @@
+object frmSelectValue: TfrmSelectValue
+  Left = 498
+  Height = 323
+  Top = 220
+  Width = 363
+  BorderStyle = bsDialog
+  Caption = 'frmSelectValue'
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30'
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    CharSet = 'UTF8'
+    Options = []
+    left = 24
+    top = 16
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Action = caNone
+    Database = SQLite3Connection1
+    left = 120
+    top = 16
+  end
+  object SQLQueryAddList: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    ReadOnly = False
+    Params = <>
+    left = 216
+    top = 16
+  end
+end

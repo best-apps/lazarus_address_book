@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: global.en
+msgid "English"
+msgstr ""
+
+#: global.nalable00
+msgctxt "global.nalable00"
+msgid "Position"
+msgstr ""
+
+#: global.nalable01
+msgctxt "global.nalable01"
+msgid "Office Phone"
+msgstr ""
+
+#: global.nalable02
+msgctxt "global.nalable02"
+msgid "Office Fax"
+msgstr ""
+
+#: global.nalable03
+msgctxt "global.nalable03"
+msgid "Mobile Phone"
+msgstr ""
+
+#: global.nalable04
+msgctxt "global.nalable04"
+msgid "E-Mail"
+msgstr ""
+
+#: global.nalable05
+msgctxt "global.nalable05"
+msgid "Home Phone"
+msgstr ""
+
+#: global.nalable06
+msgctxt "global.nalable06"
+msgid "Home Fax"
+msgstr ""
+
+#: global.nalable07
+msgctxt "global.nalable07"
+msgid "Office Address"
+msgstr ""
+
+#: global.nalable08
+msgctxt "global.nalable08"
+msgid "Home Address"
+msgstr ""
+
+#: global.nalable09
+msgctxt "global.nalable09"
+msgid "Company Site"
+msgstr ""
+
+#: global.nalable10
+msgctxt "global.nalable10"
+msgid "Personal Site"
+msgstr ""
+
+#: global.nalable11
+msgctxt "global.nalable11"
+msgid "IM Account"
+msgstr ""
+
+#: global.nalable12
+msgctxt "global.nalable12"
+msgid "Memo 1"
+msgstr ""
+
+#: global.nalable13
+msgctxt "global.nalable13"
+msgid "Memo 2"
+msgstr ""
+
+#: global.nalable14
+msgctxt "global.nalable14"
+msgid "Memo 3"
+msgstr ""
+
+#: global.nalable15
+msgctxt "global.nalable15"
+msgid "Memo 4"
+msgstr ""
+
+#: global.nalablecode
+msgid "Code"
+msgstr ""
+
+#: global.nalablecompanycountry
+msgid "Company"
+msgstr ""
+
+#: global.nalablegroupdept
+msgid "Department"
+msgstr ""
+
+#: global.nalablename
+msgid "Name"
+msgstr ""
+
+#: global.ndatabasenotconnected
+msgid "Database Not Connected"
+msgstr ""
+
+#: global.ndefault
+msgid "Default"
+msgstr ""
+
+#: global.nhavevalue
+msgid "Alreday there is this value:"
+msgstr ""
+
+#: global.nlabelall
+msgid "All Records"
+msgstr ""
+
+#: global.nlabelback
+msgid "<= BackSpace"
+msgstr ""
+
+#: global.nlabelcancel
+msgctxt "global.nlabelcancel"
+msgid "Cancel"
+msgstr ""
+
+#: global.nlabeledit
+msgid "Edit"
+msgstr ""
+
+#: global.nlabelexit
+msgid "Exit"
+msgstr ""
+
+#: global.nlabelgender
+msgid "Gender"
+msgstr ""
+
+#: global.nlabelman
+msgid "Male"
+msgstr ""
+
+#: global.nlabelnew
+msgid "New"
+msgstr ""
+
+#: global.nlabelnull
+msgid " is Null."
+msgstr ""
+
+#: global.nlabelsave
+msgid "Save"
+msgstr ""
+
+#: global.nlabelwoman
+msgid "Female"
+msgstr ""
+
+#: global.nlableabout
+msgctxt "global.nlableabout"
+msgid "About"
+msgstr ""
+
+#: global.nlableadd
+msgid "Add"
+msgstr ""
+
+#: global.nlableall
+msgid "------All------"
+msgstr ""
+
+#: global.nlableauthor
+msgid "Author:"
+msgstr ""
+
+#: global.nlablecancel
+msgctxt "global.nlablecancel"
+msgid "Cancel"
+msgstr ""
+
+#: global.nlableclose
+msgid "Close"
+msgstr ""
+
+#: global.nlableconfirm
+msgid "Confirm"
+msgstr ""
+
+#: global.nlablecopytoclipboard
+msgid "Copy To ClipBoard"
+msgstr ""
+
+#: global.nlabledelete
+msgid "Delete"
+msgstr ""
+
+#: global.nlabledeleteall
+msgid "Delete All"
+msgstr ""
+
+#: global.nlabledisplay
+msgid "View Detail information in Text"
+msgstr ""
+
+#: global.nlableemail
+msgid "E-Mail:"
+msgstr ""
+
+#: global.nlableexport
+msgctxt "global.nlableexport"
+msgid "Export"
+msgstr ""
+
+#: global.nlableexportsuccess
+msgid "Export sucessed counts: "
+msgstr ""
+
+#: global.nlableexporttitile
+msgid "Export csv file in UTF8."
+msgstr ""
+
+#: global.nlableformatcodeerr
+msgid "Code is null:"
+msgstr ""
+
+#: global.nlableformatnameerr
+msgid "Name is null:"
+msgstr ""
+
+#: global.nlableformatnumerr
+msgid "Columns count error:"
+msgstr ""
+
+#: global.nlablegroupcompany
+msgid "Select company"
+msgstr ""
+
+#: global.nlablegroupdept
+msgid "Select group"
+msgstr ""
+
+#: global.nlableimport
+msgid "Import"
+msgstr ""
+
+#: global.nlableimportsuccess
+msgid "Import sucessed counts: "
+msgstr ""
+
+#: global.nlablelanguage
+msgid "Settings"
+msgstr ""
+
+#: global.nlablerun
+msgid "Could not run over one time."
+msgstr ""
+
+#: global.nlableshow
+msgid "Show"
+msgstr ""
+
+#: global.nlablesoftinfo
+msgid "Free,Green Software. Powered by Lazarus and sqlite."
+msgstr ""
+
+#: global.nlableview
+msgid "View"
+msgstr ""
+
+#: global.nlanguageprompt
+msgid "you must restart this appliction to use new language."
+msgstr ""
+
+#: global.nmainformcaption
+msgid "Address Book Powered by LAZARUS "
+msgstr ""
+
+#: global.nnotsavedata
+msgid "Have not save data."
+msgstr ""
+
+#: global.version
+msgid " Ver 1.00"
+msgstr ""
+
+#: global.zh
+msgid "Simplified Chinese"
+msgstr ""
+

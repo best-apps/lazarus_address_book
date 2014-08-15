@@ -1,0 +1,48 @@
+object frmDisplay: TfrmDisplay
+  Left = 333
+  Height = 451
+  Top = 133
+  Width = 533
+  BorderStyle = bsDialog
+  Caption = 'View Detail information in Text'
+  ClientHeight = 451
+  ClientWidth = 533
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -15
+  Font.Name = 'Arial'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.30'
+  object Memo1: TMemo
+    Left = 0
+    Height = 400
+    Top = 0
+    Width = 533
+    Align = alTop
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object ButtonCopy: TButton
+    Left = 24
+    Height = 32
+    Top = 413
+    Width = 145
+    Caption = 'Copy to Clipboard'
+    OnClick = ButtonCopyClick
+    TabOrder = 1
+  end
+  object ButtonClose: TButton
+    Left = 352
+    Height = 32
+    Top = 413
+    Width = 145
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 2
+  end
+end
